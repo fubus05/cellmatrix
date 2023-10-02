@@ -1,0 +1,50 @@
+/* Внешний контейнер таблицы */
+.table-container {
+    margin: 20px;
+  }
+  
+  /* Стили для таблицы */
+  table {
+    border-spacing: 1;
+    width: 80%;
+  }
+  
+  /* Стили для заголовков таблицы (верхняя часть) */
+  thead th{
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+  }
+  tbody th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  /* Стили для данных в таблице (тело таблицы) */
+  tbody td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+.equal {
+  background-color: red;
+  color: white;
+}
+.cell {
+  position: relative;
+  cursor: pointer;
+}
+
+.percentage {
+  margin-left: 5px;
+  font-weight: bold;
+  display: none;
+}
+
+.cell:hover .percentage {
+  display: inline; /* Show it on hover */
+}
